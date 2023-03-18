@@ -1,7 +1,6 @@
 {
-  "name": "Application",
+  "name": "ChateMate",
   "version": "0.0.1",
-  "private": true,
   "scripts": {
     "android": "react-native run-android",
     "ios": "react-native run-ios",
@@ -34,5 +33,8 @@
   },
   "jest": {
     "preset": "react-native"
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/@VedantBhawsar"
   }
 }
