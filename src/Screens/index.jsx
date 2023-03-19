@@ -12,6 +12,7 @@ import {
 } from 'react-native';
 import Signin from '../Screens/Log In'
 import SignUp from '../Screens/Sign Up'
+import Home from '../Screens/Home'
 
 const Index = () => {
     const [counter, setCounter] = useState(0)
@@ -22,7 +23,8 @@ const Index = () => {
             }}
         >
             {/* <Signin /> */}
-            <SignUp />
+            {/* <SignUp /> */}
+            <Home />
         </View>
     )
 }
